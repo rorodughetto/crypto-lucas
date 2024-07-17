@@ -50,40 +50,16 @@ section {
     margin: 0 auto;
 }
 
-#features .feature {
-    margin-bottom: 1rem;
+#vangogh {
+    background-color: #fdf1e0;
+    color: #333;
 }
 
-#contact-form {
-    display: flex;
-    flex-direction: column;
-}
-
-#contact-form label {
-    margin-bottom: 0.5rem;
-}
-
-#contact-form input,
-#contact-form textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+#vangogh img {
     width: 100%;
-    box-sizing: border-box;
-}
-
-#contact-form button {
-    padding: 0.75rem;
-    border: none;
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-#contact-form button:hover {
-    background-color: #555;
+    max-width: 600px;
+    display: block;
+    margin: 1rem auto;
 }
 
 footer {
@@ -125,5 +101,10 @@ footer p {
 
     section {
         padding: 1rem 0;
+    }
+
+    #vangogh img {
+        width: 100%;
+        max-width: 100%;
     }
 }
